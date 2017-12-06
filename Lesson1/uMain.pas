@@ -1,4 +1,4 @@
-unit App;
+unit uMain;
 
 interface
 
@@ -6,11 +6,11 @@ uses
   sdl2,
   res_path;
 
-function Run: Integer;
+function Main: Integer;
 
 implementation
 
-function Run: Integer;
+function Main: Integer;
 var
   win: PSDL_Window;
   ren: PSDL_Renderer;

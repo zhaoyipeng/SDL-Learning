@@ -30,6 +30,7 @@ begin
     baseRes := TPath.Combine(baseRes, 'res');
   end;
   Result := TPath.Combine(baseRes, subDir);
+  Result := Result + TPath.DirectorySeparatorChar;
 end;
 
 end.

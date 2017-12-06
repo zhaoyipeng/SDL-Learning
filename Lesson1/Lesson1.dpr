@@ -7,9 +7,9 @@ program Lesson1;
 uses
   System.SysUtils,
   sdl2 in '..\..\Pascal-SDL-2-Headers-master\sdl2.pas',
-  App in 'App.pas',
+  uMain in 'uMain.pas',
   res_path in '..\include\res_path.pas';
 
 begin
-  Run;
+  Main;
 end.
