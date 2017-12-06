@@ -7,13 +7,9 @@ program Lesson2;
 uses
   System.SysUtils,
   sdl2 in '..\..\Pascal-SDL-2-Headers-master\sdl2.pas',
-  res_path in '..\include\res_path.pas';
+  res_path in '..\include\res_path.pas',
+  App in 'App.pas';
 
 begin
-  try
-    { TODO -oUser -cConsole Main : Insert code here }
-  except
-    on E: Exception do
-      Writeln(E.ClassName, ': ', E.Message);
-  end;
+  Run;
 end.
